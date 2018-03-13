@@ -32,9 +32,7 @@
 			<div class="slides">
 				<section>
 					<h1>Intro to jQuery</h1>
-					<p>
-						<small>Slides: <a href="http://www.teaching-materials.org/jquery/">https://smcashman.github.io/GDI-jquery/jquery/#/</a></small>
-					</p>
+					<img src="https://i.pinimg.com/originals/03/54/c3/0354c36aed8a696ab7379c0133914737.jpg">
 				</section>
 
 				<section class="hide-pdf">
@@ -485,8 +483,21 @@ $( document ).ready(function() {
 						<li> Give each paragraph a different font</li><br>
 						<li> Add a title (h2) to the page with a class of "mainTitle",<br>then use jQuery to add CSS rules to style it however you'd like</li>
 
-						<li> Give the middle item on the navigation bar a background color - challenge yourself! Try doing this using <a href="http://api.jquery.com/nth-child-selector">this method</a> instead of a css selector. </li>
+						<li> Give the middle item on the navigation bar a background color - challenge yourself! Try doing this using either <a href="http://api.jquery.com/nth-child-selector">this</a> or <a href="https://api.jquery.com/next/"> this method</a> instead of a css selector. </li>
 					</ul>
+				</section>
+				<section>
+					<h2>Events</a></h2>
+					<p>Events allow you to change parts of your website based on a user's action, such as a button click.</p><br>
+					<pre>
+						<code contenteditable>&lt;button class="clickButton"&gt;Click Me!&lt;/button&gt;</code>
+
+						<code class="javascript">$('.clickButton').click(function(){
+		//Do something!
+	});
+						</code>
+					</pre>
+					<p><a href="https://codepen.io/smcashman/pen/jzWGwL">Live Example</a></p>
 				</section>
 			</div><!-- end of div slides-->
 
